@@ -1,3 +1,4 @@
+input('Для запуска нажмите ENTER. ')      # Подтверждение запуска программы
 from math import factorial                # Импорт факториала из библеотеки "math"
 from sys import set_int_max_str_digits    # Импорт лимита из библеотеки "sys"
 set_int_max_str_digits(2147483647)        # Изменение лимита до максимельно возможного значения
