@@ -1,7 +1,7 @@
 input('Для запуска нажмите ENTER. ')      # Подтверждение запуска программы
-from math import factorial                # Импорт факториала из библеотеки "math"
-from sys import set_int_max_str_digits    # Импорт лимита из библеотеки "sys"
-set_int_max_str_digits(2147483647)        # Изменение лимита до максимельно возможного значения
+from math import factorial                # Импорт факториала из библиотеки "math"
+from sys import set_int_max_str_digits    # Импорт лимита из библиотеки "sys"
+set_int_max_str_digits(2147483647)        # Изменение лимита до максимально возможного значения
 n = 0                                     # Установка начального значения переменной "n" (0)
 while True:                               # Создание замкнутого цикла
     n = n + 1                             # Прибавление к переменной "n" 1
