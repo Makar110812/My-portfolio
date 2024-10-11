@@ -10,3 +10,8 @@
 # Git
 !/.gitignore
 !/.git
+
+# VS Code
+!/.vscode
+!/.notes
+!/.cspell
