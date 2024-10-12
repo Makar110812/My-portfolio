@@ -1,3 +1,4 @@
+n = 0
 while True:
     n = n + 1
-    print(n, '.I love you', sep='')
+    print(f"{n}.I love you!")
