@@ -1,18 +1,11 @@
-# Что это?
+# What is it?
 
-Это - лично мой репозиторий, моё портфолио.
+This is my personal repository, my portfolio.
 
-# Ссылки
+# Links
 
-У меня есть [визитка](https://gravatar.com/makar110812)¹, в которой находится много ссылок, в том числе и на этот репозиторий. Там же там вы можете пожертвовать мне средства в виде криптовалюты. Список поддерживаемых криптовалют:
+I have a [business card](https://gravatar.com/makar110812)¹, which contains many links, including to this repository.
 
-- Cardano
-- Bitcoin
-- Dogecoin
-- Ethereum
-- Litecoin
-- XRP
+# Notes
 
-# Примечания
-
-¹ - использован сервис [Gravatar](https://gravatar.com).
+¹ - the [Gravatar] service is used(https://gravatar.com ).

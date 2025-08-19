@@ -1,0 +1,8 @@
+# Formula of the nth term: bn = b · q ^ (n - 1)
+print('Finding the nth term of a geometric progression using the formula "bn = b · q ^ (n - 1)"')
+print('Enter the values of the variables:')
+b = int(input('b  = '))
+q = int(input('q  = '))
+n = int(input('n  = '))
+bn = b * q ** (n - 1)
+print('bn =', bn)

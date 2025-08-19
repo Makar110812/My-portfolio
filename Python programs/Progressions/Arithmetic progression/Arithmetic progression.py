@@ -1,0 +1,8 @@
+# Formula of the nth term: an = a + d · (n - 1)
+print('Finding the nth term of a geometric progression using the formula "an = a + d · (n - 1)"')
+print('Enter the values of the variables:')
+a = int(input('a = '))
+d = int(input('d = '))
+n = int(input('n = '))
+an = a + d * (n - 1)
+print('an =', an)
