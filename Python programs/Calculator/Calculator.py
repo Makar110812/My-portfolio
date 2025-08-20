@@ -1,7 +1,6 @@
 # Idents
 def indent(n):
-    for _ in range(n + 1):
-        print()
+    print("\n" * (n - 1))
 
 # Error list
 def error(n):
@@ -24,16 +23,16 @@ def error(n):
 
 # Help
 def help():
-    print("ПОМОЩЬ\nДля того, чтобы использовать калькулятор, введите выражение следующего формата:\n",
-          "<Число_1> <Символ (+; -; *; /; ^; **; //; %)> <Число_2>", sep="")
+    print("\nHELP\n----\nTo use the calculator, enter an expression in the following format:\n",
+          "<Number_1> <Symbol (+; -; *; /; ^; **; //; %)> <Number_2>", sep="")
 
 # Checking for a request for help
-print(f"Вам нужна помощь?")
+print(f"Do you need any help?")
 match input():
-    case "True" | "t" | "T" | "y" | "Y" | "yes" | "Yes" | "YES" | "д" | "Д" | "да" | "Да" | "ДА":
+    case "True" | "t" | "T" | "y" | "Y" | "yes" | "Yes" | "YES":
         help()
         indent(1)
-    case "False" | "f" | "F" | "n" | "N" | "no" | "No" | "NO" | "н" | "Н" | "нет" | "Нет" | "НЕТ":
+    case "False" | "f" | "F" | "n" | "N" | "no" | "No" | "NO":
         indent(1)
     case _:
         error(6)
@@ -115,4 +114,4 @@ while True:
 
     else:
         error(5)
-    indent(3)
+    indent(2)
